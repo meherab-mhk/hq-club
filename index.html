@@ -11,7 +11,7 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        .font-man{font-family: 'Manrope', sans-serif;}
+        *{font-family: 'Manrope', sans-serif;}
     </style>
 </head>
 <body class="bg-white">
@@ -50,7 +50,7 @@
                   </div>
             </nav>
         </section>
-        <section class="mb-[100px]">
+        <section class=" mb-[40px] lg:mb-[100px]">
           <div class="relative">
             <div class="carousel w-full">
               <div id="slide1" class="carousel-item relative w-full">
@@ -68,18 +68,51 @@
                 </div>
               </div> 
             </div>
-            <div class=" absolute mt-4 lg:right-0 lg:bottom-0">
+            <div class="lg:absolute mt-4 lg:right-0 lg:bottom-0">
               <div class="banner-txt p-4 lg:p-8 bg-[#131318] rounded-2xl lg:m-8">
                 <h3 class="font-man text-white font-black mb-4 text-[18px] lg:text-[24px]">Meet all the heroes from the field</h3>
                 <p class="font-man text-[#a1a1a3] text-base">Dit amet consectetur. Condimentum dignissim adipiscing aliquam <br> turpis placerat dolor. Purus urna in sit nullam proin. </p>
               </div>
             </div>
-          </div>  
-          
+          </div>
         </section>
-        
     </header>
-    <main></main>
+    <main class="mx-5 lg:max-w-[1440px] lg:mx-auto">
+      <section class="my-[40px] lg:my-[100px]">
+        <div class="py-6 lg:py-8 text-center border-y-[#D0D0D1] border-dashed border-y-2 mb-[48px]">
+          <h3 class="font-man font-extrabold text-[#131318] text-[22px] lg:text-[32px] mb-4 lg:mb-6">Professional Hockeys Club</h3>
+          <p class="font-medium text-[#717174] text-[14px] lg:text-base">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
+        </div>
+        <div class="progress-container flex flex-col lg:flex-row lg:justify-around">
+          <div class="prgs text-center mb-6">
+            <div class="radial-progress text-error" style="--value:87; --size:10rem;" role="progressbar"><span class="text-black font-bold text-3xl">87%</span></div>
+            <h3 class="font-semibold text-[#131318] text-xl my-6">Prayer Facility</h3>
+            <p class="font-medium text-[#717174] text-[14px] lg:text-base">Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+          </div>
+          <div class="prgs text-center mb-6">
+            <div class="radial-progress text-success" style="--value:95; --size:10rem;" role="progressbar"><span class="text-black font-bold text-3xl">95%</span></div>
+            <h3 class="font-semibold text-[#131318] text-xl my-6">Experienced Coach</h3>
+            <p class="font-medium text-[#717174] text-[14px] lg:text-base">Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+          </div>
+          <div class="prgs text-center mb-6">
+            <div class="radial-progress text-warning" style="--value:90; --size:10rem;" role="progressbar"><span class="text-black font-bold text-3xl">90%</span></div>
+            <h3 class="font-semibold text-[#131318] text-xl my-6">Senior Player</h3>
+            <p class="font-medium text-[#717174] text-[14px] lg:text-base">Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+          </div>
+          <div class="prgs text-center mb-6">
+            <div class="radial-progress text-info" style="--value:80; --size:10rem;" role="progressbar"><span class="text-black font-bold text-3xl">80%</span></div>
+            <h3 class="font-semibold text-[#131318] text-xl my-6">Training Ground</h3>
+            <p class="font-medium text-[#717174] text-[14px] lg:text-base">Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="py-6 lg:py-8 text-center border-y-[#D0D0D1] border-dashed border-y-2 mb-[48px]">
+          <h3 class="font-man font-extrabold text-[#131318] text-[22px] lg:text-[32px] mb-4 lg:mb-6">Professional Hockeys Club</h3>
+          <p class="font-medium text-[#717174] text-[14px] lg:text-base">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
+        </div>
+      </section>
+    </main>
     <footer></footer>
     <script type="module" src="tailwind.config.js"></script>
 </body>
